@@ -1,4 +1,6 @@
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+  .services {
+    height: 100vh;
+  }
 }
