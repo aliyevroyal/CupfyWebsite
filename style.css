@@ -16,8 +16,8 @@ body {
 }
 
 .navbar {
-  background-color: #0b423b;
   position: relative;
+  background-color: #0b423b;
 }
 
 .navbar-brand,
@@ -44,4 +44,23 @@ body {
   margin-top: 0.8vw;
   color: #ffffff;
   cursor: pointer;
+}
+
+.intro {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #14cc60;
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  background-color: #0a2e36;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
