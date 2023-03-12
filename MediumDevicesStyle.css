@@ -3,4 +3,8 @@
   .services {
     height: 170vh;
   }
+
+  .process {
+    height: 100vh;
+  }
 }
