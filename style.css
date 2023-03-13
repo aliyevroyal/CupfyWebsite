@@ -165,19 +165,10 @@ body {
   left: 0vw;
 }
 
-.process .container .row .col-lg:nth-child(1) {
-}
-
-.process .container .row .col-lg:nth-child(2) {
-}
-
 .process .container .row .col-lg:nth-child(1) img {
   position: absolute;
   top: 0vh;
   left: 0vw;
-}
-
-.process .container .row .col-lg:nth-child(2) .row:nth-child(1) {
 }
 
 .process .container .row .col-lg:nth-child(2) .row:nth-child(1) h1 {
@@ -217,12 +208,27 @@ body {
   position: absolute;
   margin-top: 7vh;
   left: 2vw;
+  cursor: pointer;
 }
 
 .process .container .row .col-lg:nth-child(2) .row button:nth-child(2) {
   position: absolute;
   margin-top: 7vh;
   left: 14vw;
+  cursor: pointer;
+}
+
+.process .contactUs {
+  position: absolute;
+  bottom: 3vh;
+  width: 100vw;
+  color: #0a2e36;
+}
+
+.process .contactUs a,
+.process .contactUs a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .pricing {
@@ -247,4 +253,5 @@ body {
 .footer a {
   text-decoration: none;
   color: #ffffff;
+  cursor: pointer;
 }
