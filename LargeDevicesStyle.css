@@ -1,10 +1,17 @@
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .intro {
+  }
+
   .services {
-    height: 100vh;
   }
 
   .process {
-    height: 100vh;
+  }
+
+  .pricing {
+  }
+
+  .partners {
   }
 }

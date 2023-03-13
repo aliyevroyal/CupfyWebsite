@@ -1,10 +1,17 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .intro {
+  }
+
   .services {
-    height: 170vh;
   }
 
   .process {
-    height: 100vh;
+  }
+
+  .pricing {
+  }
+
+  .partners {
   }
 }

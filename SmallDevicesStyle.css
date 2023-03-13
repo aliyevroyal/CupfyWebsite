@@ -1,10 +1,17 @@
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .intro {
+  }
+
   .services {
-    height: 170vh;
   }
 
   .process {
-    height: 100vh;
+  }
+
+  .pricing {
+  }
+
+  .partners {
   }
 }

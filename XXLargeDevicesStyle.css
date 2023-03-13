@@ -1,10 +1,20 @@
 /*  XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-  .services {
+  .intro {
     height: 100vh;
+  }
+
+  .services {
+    height: 85vh;
   }
 
   .process {
     height: 100vh;
+  }
+
+  .pricing {
+  }
+
+  .partners {
   }
 }

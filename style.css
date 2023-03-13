@@ -7,6 +7,7 @@
   padding: 0px;
   margin: 0px;
   font-family: Quicksand-Regular;
+  cursor: default;
 }
 
 html {
@@ -23,6 +24,7 @@ body {
 
 .navbar {
   position: relative;
+  width: 100vw;
   background-color: #0b423b;
 }
 
@@ -31,11 +33,13 @@ body {
   color: #ffffff;
   font-size: 4vh;
   padding-left: 3vw;
+  cursor: pointer;
 }
 
 .nav-link,
 .nav-link:hover {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -55,7 +59,6 @@ body {
 .intro {
   position: relative;
   width: 100vw;
-  height: 100vh;
   background-color: #14cc60;
 }
 
@@ -67,7 +70,8 @@ body {
   color: #0a2e36;
 }
 
-.intro button {
+.intro button,
+.intro button:hover {
   position: relative;
   top: 40vh;
   background-color: #0a2e36;
@@ -76,10 +80,6 @@ body {
   width: 25vw;
   height: 10vh;
   font-size: 3vh;
-}
-
-.intro button:hover {
-  color: #ffffff;
 }
 
 .intro button:nth-child(2) {
@@ -94,72 +94,147 @@ body {
   position: relative;
   width: 100vw;
   background-color: #f5f5f5;
+  border-bottom: 0.5px solid #101010;
 }
 
-.services .col-lg {
+.services .container {
   position: relative;
-  top: 10vh;
-  height: 25vh;
+  top: 15vh;
 }
 
-.services .col-lg i {
-  position: relative;
-  top: 0vh;
-  left: 0vh;
+.services .container .row:nth-child(1) .col-lg img {
+  width: 7vw;
 }
 
-.services .col-lg h1 {
-  position: relative;
-  top: 5vh;
-  right: 0vw;
-  color: #14cc60;
+.services .container .row:nth-child(1) .col-lg h6 {
+  color: #101010;
+}
+
+.services .container .row:nth-child(2) {
+  height: 50vh;
+}
+
+.services .container .row:nth-child(2) .col-lg h1 {
+  position: absolute;
+  top: 22.5vh;
+  left: 5vw;
   font-size: 10vh;
-  background-color: red;
-  text-align: left;
+  color: #14cc60;
 }
 
-.services .col-lg h2 {
-  position: relative;
-  left: 0vw;
+.services .container .row:nth-child(2) .col-lg h1 span {
+  color: #101010;
+}
+
+.services .container .row:nth-child(2) .col-lg h2 {
+  position: absolute;
+  top: 23vh;
+  left: 21vw;
+  font-size: 3vh;
   color: #0a2e36;
-  font-size: 5vh;
-  background-color: red;
-  text-align: right;
+  text-align: end;
 }
 
-.services .col-lg h6 {
-  position: relative;
-  top: 3vh;
-  left: 0vh;
+.services .container .row:nth-child(2) .col-lg p {
+  position: absolute;
+  top: 23.5vh;
+  left: 15vw;
+  font-size: 1.5vh;
+  color: #0a2e36;
+  text-align: start;
+}
+
+.services .container .row:nth-child(2) .col-lg a {
+  position: absolute;
+  top: 31vh;
+  left: 15vw;
+  font-size: 1.8vh;
+  color: #0a2e36;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .process {
   position: relative;
+  width: 100vw;
+}
+
+.process .container {
+  position: relative;
+  top: 15vh;
+  left: 0vw;
+}
+
+.process .container .row .col-lg:nth-child(1) {
+}
+
+.process .container .row .col-lg:nth-child(2) {
+}
+
+.process .container .row .col-lg:nth-child(1) img {
+  position: absolute;
   top: 0vh;
   left: 0vw;
-  width: 100vw;
-  background-color: black;
 }
 
-.process .col-lg {
+.process .container .row .col-lg:nth-child(2) .row:nth-child(1) {
+}
+
+.process .container .row .col-lg:nth-child(2) .row:nth-child(1) h1 {
   position: relative;
-  top: 17.5vh;
-  left: 0vw;
-  background-color: #0a2e36;
+  left: 7vw;
+  font-size: 5vh;
+  color: #0a2e36;
 }
 
-.lamp {
-  width: 4vw;
-  height: 4vw;
-  background-color: green;
+.process .container .row .col-lg:nth-child(2) .row img {
+  width: 7vw;
 }
 
-.process .col-lg h2 {
-  background-color: red;
+.process .container .row .col-lg:nth-child(2) .row h2 {
+  position: absolute;
+  margin-top: 0vh;
+  margin-left: 7vw;
+  font-size: 3vh;
+  height: 4vh;
+  color: #101010;
 }
 
-.process .col-lg p {
-  background-color: orange;
+.process .container .row .col-lg:nth-child(2) .row p {
+  position: absolute;
+  margin-top: 4vh;
+  margin-left: 7vw;
+  font-size: 2vh;
+  color: #101010;
+}
+
+.mdi-36px {
+  font-size: 39px;
+  margin-right: 10px;
+}
+
+.process .container .row .col-lg:nth-child(2) .row button:nth-child(1) {
+  position: absolute;
+  margin-top: 7vh;
+  left: 2vw;
+}
+
+.process .container .row .col-lg:nth-child(2) .row button:nth-child(2) {
+  position: absolute;
+  margin-top: 7vh;
+  left: 14vw;
+}
+
+.pricing {
+  position: relative;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.partners {
+  position: relative;
+  width: 100vw;
+  background-color: #d9d9d9;
 }
 
 .footer {
