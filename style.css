@@ -95,6 +95,7 @@ body {
   width: 100vw;
   background-color: #f5f5f5;
   border-bottom: 0.5px solid #101010;
+  background-color: yellow;
 }
 
 .services .container {
@@ -102,16 +103,23 @@ body {
   top: 15vh;
 }
 
+.services .container .row:nth-child(1) {
+  background-color: green;
+}
+
 .services .container .row:nth-child(1) .col-lg img {
   width: 7vw;
+  background-color: blue;
 }
 
 .services .container .row:nth-child(1) .col-lg h6 {
   color: #101010;
+  background-color: aqua;
 }
 
 .services .container .row:nth-child(2) {
   height: 50vh;
+  background-color: brown;
 }
 
 .services .container .row:nth-child(2) .col-lg h1 {
@@ -120,6 +128,7 @@ body {
   left: 5vw;
   font-size: 10vh;
   color: #14cc60;
+  background-color: red;
 }
 
 .services .container .row:nth-child(2) .col-lg h1 span {
@@ -133,6 +142,7 @@ body {
   font-size: 3vh;
   color: #0a2e36;
   text-align: end;
+  background-color: black;
 }
 
 .services .container .row:nth-child(2) .col-lg p {
@@ -142,6 +152,7 @@ body {
   font-size: 1.5vh;
   color: #0a2e36;
   text-align: start;
+  background-color: #14cc60;
 }
 
 .services .container .row:nth-child(2) .col-lg a {
@@ -152,11 +163,13 @@ body {
   color: #0a2e36;
   text-decoration: underline;
   cursor: pointer;
+  background-color: aqua;
 }
 
 .process {
   position: relative;
   width: 100vw;
+  background-color: green;
 }
 
 .process .container {
@@ -165,10 +178,23 @@ body {
   left: 0vw;
 }
 
+.process .container .row .col-lg:nth-child(1) {
+  background-color: aliceblue;
+}
+
+.process .container .row .col-lg:nth-child(2) {
+  background-color: aquamarine;
+}
+
 .process .container .row .col-lg:nth-child(1) img {
   position: absolute;
   top: 0vh;
   left: 0vw;
+  background-color: #0a2e36;
+}
+
+.process .container .row .col-lg:nth-child(2) .row:nth-child(1) {
+  background-color: blueviolet;
 }
 
 .process .container .row .col-lg:nth-child(2) .row:nth-child(1) h1 {
@@ -176,10 +202,12 @@ body {
   left: 7vw;
   font-size: 5vh;
   color: #0a2e36;
+  background-color: red;
 }
 
 .process .container .row .col-lg:nth-child(2) .row img {
   width: 7vw;
+  background-color: blue;
 }
 
 .process .container .row .col-lg:nth-child(2) .row h2 {
@@ -189,6 +217,7 @@ body {
   font-size: 3vh;
   height: 4vh;
   color: #101010;
+  background-color: cadetblue;
 }
 
 .process .container .row .col-lg:nth-child(2) .row p {
@@ -197,6 +226,7 @@ body {
   margin-left: 7vw;
   font-size: 2vh;
   color: #101010;
+  background-color: burlywood;
 }
 
 .mdi-36px {
