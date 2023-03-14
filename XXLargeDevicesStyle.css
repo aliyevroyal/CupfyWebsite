@@ -1,20 +1,136 @@
 /*  XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: #ffffff;
+    font-size: 4vh;
+    padding-left: 3vw;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    padding-right: 4vw;
+  }
+
+  .nav-item i {
+    margin-top: 0.8vw;
+  }
+
   .intro {
     height: 100vh;
   }
 
+  .intro h1 {
+    top: 35vh;
+    left: 4vw;
+    font-size: 10vh;
+  }
+
+  .intro button,
+  .intro button:hover {
+    top: 40vh;
+    border-radius: 20px;
+    width: 25vw;
+    height: 10vh;
+    font-size: 3vh;
+  }
+
+  .intro button:nth-child(2) {
+    left: 4vw;
+  }
+
+  .intro button:nth-child(3) {
+    left: 7vw;
+  }
+
   .services {
-    height: 85vh;
+  }
+
+  .services .container .row:nth-child(1) .col-lg img {
+    width: 7vw;
+  }
+
+  .services .container .row:nth-child(2) {
+    height: 50vh;
+  }
+
+  .services .container .row:nth-child(2) .col-lg h1 {
+    top: 22.5vh;
+    left: 5vw;
+    font-size: 10vh;
+  }
+
+  .services .container .row:nth-child(2) .col-lg h2 {
+    top: 23vh;
+    left: 21vw;
+    font-size: 3vh;
+  }
+
+  .services .container .row:nth-child(2) .col-lg p {
+    top: 23.5vh;
+    left: 15vw;
+    font-size: 1.5vh;
+  }
+
+  .services .container .row:nth-child(2) .col-lg a {
+    top: 31vh;
+    left: 15vw;
+    font-size: 1.8vh;
   }
 
   .process {
-    height: 100vh;
+  }
+
+  .process .container .row .col-lg:nth-child(1) img {
+    margin-top: 3vh;
+  }
+
+  .process .container .row .col-lg:nth-child(2) .row:nth-child(1) h1 {
+    top: 0vh;
+    left: 1.5vw;
+    font-size: 3.2vh;
+  }
+
+  .process .container .row .col-lg:nth-child(2) .row img {
+    top: 0vh;
+    left: 0vw;
+    width: 7vw;
+  }
+
+  .process .container .row .col-lg:nth-child(2) .row h2 {
+    top: 0vh;
+    left: 0vw;
+    font-size: 2.5vh;
+  }
+
+  .process .container .row .col-lg:nth-child(2) .row p {
+    top: 2.5vh;
+    right: 9vw;
+  }
+
+  .process .container .row .col-lg:nth-child(2) .row button:nth-child(1) {
+    margin-top: 12vh;
+    left: 3vw;
+  }
+
+  .process .container .row .col-lg:nth-child(2) .row button:nth-child(2) {
+    margin-top: 12vh;
+    left: 4.5vw;
   }
 
   .pricing {
   }
 
+  .pricing .container .row:nth-child(1) h1 {
+    font-size: 5vh;
+  }
+
   .partners {
+  }
+
+  .map {
+  }
+
+  .banner {
   }
 }
