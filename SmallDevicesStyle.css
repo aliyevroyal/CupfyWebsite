@@ -3,7 +3,7 @@
   .navbar-brand,
   .navbar-brand:hover {
     color: #ffffff;
-    font-size: 4vh;
+    font-size: 1.4rem;
     padding-left: 3vw;
     cursor: pointer;
   }
@@ -18,14 +18,13 @@
 
   .intro {
     height: 170vh;
-    background-color: black;
   }
 
   .intro h1 {
     position: absolute;
     top: 10vh;
     left: 5vw;
-    font-size: 8.5vw;
+    font-size: 2.5rem;
   }
 
   .intro button,
@@ -33,7 +32,7 @@
     position: absolute;
     border-radius: 60px;
     height: 10vh;
-    font-size: 3.25vw;
+    font-size: 0.8rem;
   }
 
   .intro button:nth-child(2) {
