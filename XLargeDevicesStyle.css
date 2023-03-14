@@ -1,23 +1,58 @@
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: #ffffff;
+    font-size: 3.5vh;
+    padding-left: 3vw;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    padding-right: 4vw;
+  }
+
+  .nav-item i {
+    margin-top: 1.5vh;
+  }
+
   .intro {
+    height: 100vh;
   }
 
-  .services {
+  .intro h1 {
+    top: 35vh;
+    left: 4vw;
+    font-size: 5.2vw;
   }
 
-  .process {
+  .intro button,
+  .intro button:hover {
+    top: 40vh;
+    border-radius: 20px;
+    height: 10vh;
+    font-size: 1.7vw;
   }
 
-  .pricing {
+  .intro button:nth-child(2) {
+    width: 22.5vw;
+    left: 4vw;
   }
 
-  .partners {
+  .intro button:nth-child(3) {
+    width: 13vw;
+    left: 6vw;
   }
 
-  .map {
+  .intro .hand1 {
+    right: 0vw;
+    top: 40vh;
+    width: 40vw;
   }
 
-  .banner {
+  .intro .cup {
+    right: 13vw;
+    top: 10vh;
+    width: 40vw;
   }
 }
