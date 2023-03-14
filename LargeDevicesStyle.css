@@ -17,26 +17,26 @@
   }
 
   .intro {
-    height: 100vh;
-    background-color: black;
+    height: 90vh;
   }
 
   .intro h1 {
-    top: 35vh;
+    top: 10vh;
     left: 4vw;
+    width: 65vw;
     font-size: 5.3rem;
   }
 
   .intro button,
   .intro button:hover {
-    top: 40vh;
+    top: 15vh;
     border-radius: 20px;
     height: 10vh;
     font-size: 1.5rem;
   }
 
   .intro button:nth-child(2) {
-    width: 22.5vw;
+    width: 30vw;
     left: 4vw;
   }
 
@@ -53,7 +53,7 @@
 
   .intro .cup {
     right: 13vw;
-    top: 10vh;
+    top: 15vh;
     width: 40vw;
   }
 }

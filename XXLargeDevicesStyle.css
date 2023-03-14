@@ -18,12 +18,12 @@
 
   .intro {
     height: 100vh;
-    background-color: black;
   }
 
   .intro h1 {
     top: 35vh;
     left: 4vw;
+    width: 65vw;
     font-size: 5.3rem;
   }
 
@@ -48,13 +48,13 @@
   .intro .hand1 {
     right: 0vw;
     top: 40vh;
-    width: 32vw;
+    width: 30vw;
   }
 
   .intro .cup {
-    right: 11vw;
+    right: 10vw;
     top: 15vh;
-    width: 32vw;
+    width: 30vw;
   }
 
   .services {
