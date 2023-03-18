@@ -51,4 +51,43 @@
     width: 36rem;
     pointer-events: none;
   }
+
+  .services .container .row:nth-child(1) {
+    padding-top: 2.5rem;
+  }
+
+  .services img {
+    width: 6rem;
+  }
+
+  .services h6 {
+    padding-top: 1.5rem;
+  }
+
+  .services .container .row:nth-child(2) {
+    height: 19rem;
+  }
+
+  .services h1 {
+    top: 7rem;
+    left: 4.4rem;
+    font-size: 4.5rem;
+  }
+
+  .services h2 {
+    top: 6rem;
+    right: 0rem;
+    font-size: 2rem;
+  }
+
+  .services p {
+    top: 6rem;
+    left: 5rem;
+  }
+
+  .services a {
+    top: 11.5rem;
+    left: 5rem;
+    text-decoration: underline !important;
+  }
 }

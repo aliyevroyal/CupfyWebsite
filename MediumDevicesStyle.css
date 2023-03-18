@@ -52,4 +52,43 @@
     top: 19rem;
     width: 32rem;
   }
+
+  .services img {
+    padding-top: 2.5rem;
+    width: 7rem;
+  }
+
+  .services h6 {
+    padding-top: 1.5rem;
+  }
+
+  .services .container .row:nth-child(2) {
+    height: 30rem;
+  }
+
+  .services h1 {
+    top: 3rem;
+    margin-left: -14.5rem;
+    font-size: 8rem;
+  }
+
+  .services h2 {
+    top: 3.5rem;
+    right: 0rem;
+    font-size: 2.75rem;
+  }
+
+  .services p {
+    font-size: 1.5rem;
+  }
+
+  .services p br {
+    display: none;
+  }
+
+  .services a {
+    top: 6rem;
+    left: 1rem;
+    font-size: 1.5rem;
+  }
 }
