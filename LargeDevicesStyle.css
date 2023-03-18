@@ -90,4 +90,51 @@
     left: 3rem;
     text-decoration: underline !important;
   }
+
+  .process {
+    padding-top: 3rem;
+  }
+
+  .process .box {
+    height: 34rem;
+  }
+
+  .process .hand {
+    top: 2.25rem;
+  }
+
+  .process h1 {
+    left: 1.3rem;
+    font-size: 2rem;
+  }
+
+  .process .lamp {
+    width: 5.5rem;
+  }
+
+  .process h2 {
+    top: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  .process .row:nth-child(1) p {
+    top: 2.5rem;
+    right: 10.85rem;
+    font-size: 0.75rem;
+  }
+
+  .process .appStore {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .process .playStore {
+    top: 1.5rem;
+    right: 1rem;
+  }
+
+  .process .contactUs p {
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+  }
 }

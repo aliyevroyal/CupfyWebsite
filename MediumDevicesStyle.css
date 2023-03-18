@@ -91,4 +91,61 @@
     left: 1rem;
     font-size: 1.5rem;
   }
+
+  .process {
+    padding-top: 2rem;
+  }
+
+  .process .box {
+    height: 48rem;
+  }
+
+  .process h1 {
+    font-size: 3.6rem;
+  }
+
+  .process h1 br {
+    display: none;
+  }
+
+  .process .lamp {
+    width: 7rem;
+  }
+
+  .process h2 {
+    font-size: 2rem;
+  }
+
+  .process .row:nth-child(2),
+  .process .row:nth-child(3),
+  .process .row:nth-child(4),
+  .process .row:nth-child(5) {
+    padding-top: 5vh;
+  }
+
+  .process .row:nth-child(1) p {
+    top: 2.5rem;
+    right: 12.25rem;
+    font-size: 0.9rem;
+  }
+
+  .process .appStore {
+    top: 0rem;
+    left: 10rem;
+    width: 12.5rem;
+    height: 4.5rem;
+  }
+
+  .process .playStore {
+    top: 2rem;
+    left: 10rem;
+    width: 12.5rem;
+    height: 4.5rem;
+  }
+
+  .process .contactUs p {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+  }
 }
