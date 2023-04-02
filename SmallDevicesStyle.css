@@ -96,56 +96,59 @@
     padding-top: 2rem;
   }
 
-  .process .box {
-    height: 35rem;
+  .process .imgBox {
+    min-height: 24rem;
+  }
+
+  .process .h1Box {
+    height: 5.5rem;
+  }
+
+  .process h1 {
+    left: 2rem;
+    font-size: xx-large;
   }
 
   .process .row:nth-child(2),
   .process .row:nth-child(3),
-  .process .row:nth-child(4),
-  .process .row:nth-child(5) {
-    padding-top: 5vh;
-  }
-
-  .process h1 {
-    font-size: 3.6rem;
-  }
-
-  .process h1 br {
-    display: none;
+  .process .row:nth-child(4) {
+    height: 7rem;
   }
 
   .process .lamp {
-    width: 6rem;
+    width: 7rem;
   }
 
   .process h2 {
-    font-size: 2rem;
+    left: 6.5rem;
+    margin-top: 1rem;
+    font-size: x-large;
   }
 
   .process .row:nth-child(1) p {
-    top: 2.5rem;
-    right: 12.25rem;
-    font-size: 0.9rem;
+    left: 6.5rem;
+    margin-top: 3rem;
+    font-size: medium;
+    line-height: 1.35;
   }
 
   .process .appStore {
-    top: 0rem;
-    left: 10rem;
-    width: 12.5rem;
-    height: 4.5rem;
+    width: 11rem;
+    height: 4rem;
+    font-size: medium;
   }
 
   .process .playStore {
-    top: 2rem;
-    left: 10rem;
-    width: 12.5rem;
-    height: 4.5rem;
+    margin-top: 1.5rem;
+    width: 11rem;
+    height: 4rem;
+    font-size: medium;
   }
 
   .process .contactUs p {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    font-size: 0.9rem;
+    margin: 0.25rem;
+    padding-top: 2rem;
+    font-size: medium;
+    text-align: center;
   }
 }

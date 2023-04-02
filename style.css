@@ -145,19 +145,23 @@ header {
 }
 
 .process h1 {
-  position: relative;
+  position: absolute;
   color: #0a2e36;
   font-weight: bold;
 }
 
+.process .lamp {
+  position: absolute;
+}
+
 .process h2 {
-  position: relative;
+  position: absolute;
   color: #101010;
   font-weight: bold;
 }
 
 .process .row:nth-child(1) p {
-  position: relative;
+  position: absolute;
   color: #101010;
 }
 
@@ -166,10 +170,7 @@ header {
   margin-right: 10px;
 }
 
-.process button:nth-child(1) {
-  position: relative;
-}
-
+.process button:nth-child(1),
 .process button:nth-child(2) {
   position: relative;
 }
