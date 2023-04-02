@@ -101,16 +101,13 @@
     height: 30rem;
   }
 
-  .process .row:nth-child(2),
-  .process .row:nth-child(3),
-  .process .row:nth-child(4),
-  .process .row:nth-child(5) {
+  .process .row:nth-child(2) {
     padding-top: 5vh;
   }
 
   .process h1 {
     left: 2rem;
-    font-size: 1.9rem;
+    font-size: xx-large;
   }
 
   .process h1 br {
@@ -118,33 +115,30 @@
   }
 
   .process .lamp {
-    width: 4rem;
-    margin-left: 1.25rem;
+    width: 7rem;
   }
 
   .process h2 {
-    background-color: aqua;
-    font-size: medium;
+    font-size: x-large;
   }
 
   .process .row:nth-child(1) p {
-    background-color: aquamarine;
-    font-size: x-small;
-    top: 1.25rem;
-    right: 6.25rem;
+    font-size: medium;
+    left: 7rem;
+    bottom: 4.5rem;
   }
 
   .process .appStore {
     top: 0rem;
-    left: 5rem;
+    left: 7rem;
     width: 9.5rem;
     height: 3.5rem;
     font-size: small;
   }
 
   .process .playStore {
-    top: 2rem;
-    left: 5rem;
+    margin-top: 2rem;
+    left: 7rem;
     width: 9.5rem;
     height: 3.25rem;
     font-size: small;
