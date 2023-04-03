@@ -294,17 +294,13 @@ header {
   position: relative;
 }
 
+.map .container-fluid {
+  position: relative;
+}
+
 .map h1 {
   position: absolute;
   color: #101010;
-}
-
-.map .container {
-  position: relative;
-}
-
-.map .container-fluid {
-  position: relative;
 }
 
 .banner {
