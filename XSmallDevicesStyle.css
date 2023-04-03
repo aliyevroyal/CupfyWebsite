@@ -236,4 +236,19 @@
     height: 2.6rem;
     font-size: medium;
   }
+
+  .partners .h1Box {
+    min-height: 6.25rem;
+  }
+
+  .partners h1 {
+    position: absolute;
+    left: 1rem;
+    width: 16rem;
+    text-align: left;
+  }
+
+  .partners img {
+    padding: 0.75em;
+  }
 }

@@ -233,4 +233,16 @@
     height: 2.6rem;
     font-size: medium;
   }
+
+  .partners h1 {
+    text-align: left;
+  }
+
+  .partners a {
+    top: 1rem;
+  }
+
+  .partners img {
+    padding: 3rem;
+  }
 }

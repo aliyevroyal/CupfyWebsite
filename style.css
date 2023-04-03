@@ -22,6 +22,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  pointer-events: none;
+}
+
 header {
   position: relative;
 }
@@ -88,7 +92,6 @@ header {
 
 .intro img {
   position: absolute;
-  pointer-events: none;
 }
 
 .services {
@@ -267,19 +270,22 @@ header {
 
 .partners .container {
   position: relative;
-  background-color: red;
 }
 
-.partners .container .row:nth-child(1) .col-lg:nth-child(1) {
-  background-color: brown;
+.partners h1 {
+  position: relative;
+  color: #101010;
 }
 
-.partners .container .row:nth-child(2) .col:nth-child(1) {
-  background-color: cadetblue;
+.partners a {
+  position: relative;
+  cursor: pointer;
+  text-decoration: underline !important;
+  color: #101010;
 }
 
-.partners .container .row:nth-child(3) .col:nth-child(1) {
-  background-color: blueviolet;
+.partners img {
+  position: relative;
 }
 
 .map {
