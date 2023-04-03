@@ -196,39 +196,66 @@ header {
   position: relative;
   width: 100vw;
   background-color: #f5f5f5;
-  background-color: black;
 }
 
 .pricing .container {
   position: relative;
-  background-color: #14cc60;
-}
-
-.pricing .container .row:nth-child(1) {
-  background-color: blue;
 }
 
 .pricing .container .row:nth-child(1) h1 {
+  position: absolute;
   color: #0a2e36;
-  background-color: red;
 }
 
-.pricing .container .row:nth-child(2) .col-lg:nth-child(1) {
-  background-color: aquamarine;
-}
-
-.pricing .container .row:nth-child(2) .col-lg:nth-child(2) {
-  background-color: blanchedalmond;
+.pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
+  color: #848199;
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(1) {
+  position: absolute;
   background-color: #14cc60;
   color: #ffffff;
   border-radius: 20px;
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(2) {
+  position: absolute;
   color: #0a2e36;
+}
+
+.pricing .card {
+  position: relative;
+  width: 18rem;
+  border-radius: 45px;
+  color: #848199;
+  background-color: #f5f5f5;
+  border: 1px solid #e7e2e2;
+}
+
+.pricing .card span {
+  font-weight: 1000;
+}
+
+.pricing .card h1 {
+  position: absolute;
+}
+
+.pricing .card h2 {
+  position: absolute;
+}
+
+.pricing .card p {
+  position: absolute;
+}
+
+.pricing .card .checkBox {
+  position: relative;
+}
+
+.pricing .card button {
+  position: absolute;
+  background-color: #14cc60;
+  color: #e7e2e2;
   border-radius: 20px;
 }
 
