@@ -83,10 +83,6 @@
     font-size: 1.5rem;
   }
 
-  .services p br {
-    display: none;
-  }
-
   .services a {
     top: 6rem;
     left: 1rem;
