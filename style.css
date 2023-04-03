@@ -292,22 +292,25 @@ header {
 
 .map .container {
   position: relative;
-  background-color: greenyellow;
 }
 
-.map .container .row:nth-child(1) {
-  background-color: #0a2e36;
+.map h1 {
+  position: absolute;
+  color: #101010;
+}
+
+.map .container {
+  position: relative;
+}
+
+.map .container-fluid {
+  position: relative;
 }
 
 .banner {
   position: relative;
   width: 100vw;
   background-color: #14cc60;
-}
-
-.map .container {
-  position: relative;
-  background-color: greenyellow;
 }
 
 .footer {

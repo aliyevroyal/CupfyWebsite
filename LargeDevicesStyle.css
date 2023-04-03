@@ -252,4 +252,17 @@
   .partners img {
     padding: 2.5rem;
   }
+
+  .map .h1Box {
+    height: 6.5rem;
+  }
+
+  .map h1 {
+    left: 1rem;
+    width: 16rem;
+  }
+
+  .map .imgBox {
+    margin-top: 1rem;
+  }
 }
