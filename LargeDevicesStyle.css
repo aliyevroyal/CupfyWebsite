@@ -78,11 +78,13 @@
     top: 6rem;
     right: 0rem;
     font-size: 1.8rem;
+    width: 21rem;
   }
 
   .services p {
     top: 6rem;
     left: 3rem;
+    width: 20rem;
   }
 
   .services a {
