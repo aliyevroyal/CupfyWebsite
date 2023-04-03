@@ -265,4 +265,30 @@
   .map .imgBox {
     margin-top: 1rem;
   }
+
+  .banner {
+    margin-top: 1rem;
+  }
+
+  .banner .box {
+    height: 5.5rem;
+  }
+
+  .banner h1 {
+    font-size: 4.5rem;
+    left: -4.25rem;
+  }
+
+  .banner h2 {
+    top: 1.5rem;
+    left: 0rem;
+    width: 11rem;
+    font-size: large;
+  }
+
+  .banner button {
+    top: 1.5rem;
+    left: 17.5rem;
+    font-size: large;
+  }
 }

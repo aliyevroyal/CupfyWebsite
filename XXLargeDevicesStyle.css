@@ -263,4 +263,30 @@
   .map .imgBox {
     margin-top: 1rem;
   }
+
+  .banner {
+    margin-top: 1rem;
+  }
+
+  .banner .box {
+    height: 6rem;
+  }
+
+  .banner h1 {
+    font-size: 5rem;
+    left: -4.75rem;
+  }
+
+  .banner h2 {
+    top: 1.5rem;
+    left: 0rem;
+    width: 15rem;
+    font-size: x-large;
+  }
+
+  .banner button {
+    top: 1.75rem;
+    left: 20rem;
+    font-size: x-large;
+  }
 }
