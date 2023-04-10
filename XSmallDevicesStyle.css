@@ -1,5 +1,5 @@
 /* X-Small devices (portrait phones, less than 576px) */
-@media (min-width: 320px) and (max-width: 575.98px) {
+@media (min-width: 321px) and (max-width: 499.98px) {
   .navbar-brand,
   .navbar-brand:hover {
     color: #ffffff;
@@ -17,14 +17,14 @@
   }
 
   .intro {
-    height: 50rem;
+    height: 55rem;
   }
 
   .intro h1 {
     position: absolute;
-    top: 1.5rem;
+    top: 3.5rem;
     left: 1.5rem;
-    width: 22rem;
+    width: 82vw;
     font-size: 2.7rem;
   }
 
@@ -39,18 +39,21 @@
 
   .intro button:nth-child(2) {
     width: 13rem;
-    top: 17.5rem;
+    top: 21rem;
   }
 
   .intro button:nth-child(3) {
     width: 7rem;
-    top: 12.5rem;
+    top: 16rem;
   }
 
   .intro img {
     right: 0rem;
-    top: 20rem;
+    top: 27.5rem;
     width: 32rem;
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
   }
 
   .services img {

@@ -17,22 +17,22 @@
   }
 
   .intro {
-    height: 52rem;
+    height: 42rem;
   }
 
   .intro h1 {
-    top: 18rem;
+    top: 15rem;
     left: 3.5rem;
-    width: 39rem;
-    font-size: 3.4rem;
+    width: 51vw;
+    font-size: 3.75rem;
   }
 
   .intro button,
   .intro button:hover {
-    top: 21rem;
-    height: 4.5rem;
+    top: 18.5rem;
+    height: 4rem;
     border-radius: 20px;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 
   .intro button:nth-child(2) {
@@ -41,14 +41,14 @@
   }
 
   .intro button:nth-child(3) {
-    width: 8rem;
-    left: 6rem;
+    width: 9rem;
+    left: 7rem;
   }
 
   .intro img {
-    top: 10rem;
+    top: 2rem;
     right: 0rem;
-    width: 30rem;
+    width: 40rem;
     pointer-events: none;
   }
 

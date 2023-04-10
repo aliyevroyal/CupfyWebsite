@@ -3,6 +3,11 @@
   src: url("resources/Quicksand-Regular.ttf");
 }
 
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url("resources/Quicksand-Bold.ttf");
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -75,7 +80,7 @@ header {
 .intro h1 {
   position: relative;
   color: #0a2e36;
-  font-weight: bold;
+  font-family: Quicksand-Bold;
 }
 
 .intro button,
