@@ -114,23 +114,25 @@ header {
 .services h6 {
   color: #101010;
   cursor: pointer;
+  font-family: Quicksand-Bold;
 }
 
 .services h1 {
   position: absolute;
   color: #14cc60;
+  font-family: Quicksand-Bold;
 }
 
 .services h1 span {
   color: #101010;
-  font-weight: bold;
+  font-family: Quicksand-Bold;
 }
 
 .services h2 {
   position: absolute;
   text-align: end;
   color: #0a2e36;
-  font-weight: bold;
+  font-family: Quicksand-Bold;
 }
 
 .services p {
@@ -144,7 +146,7 @@ header {
   text-decoration: underline;
   cursor: pointer;
   color: #0a2e36;
-  font-weight: bold;
+  font-family: Quicksand-Bold;
   text-decoration: underline !important;
 }
 

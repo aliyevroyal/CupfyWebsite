@@ -1,4 +1,4 @@
-/* X-Small devices (portrait phones, less than 576px) */
+/* X-Small devices (portrait phones, less than 500px) */
 @media (min-width: 321px) and (max-width: 499.98px) {
   .navbar-brand,
   .navbar-brand:hover {
@@ -56,13 +56,18 @@
     -webkit-transform: scale(1.2, 1.2);
   }
 
+  .services {
+    height: 79rem;
+  }
+
   .services img {
     padding-top: 2.5rem;
     width: 7rem;
   }
 
   .services h6 {
-    padding-top: 1.5rem;
+    padding-top: 1.75rem;
+    font-size: 1.25rem;
   }
 
   .services .container .row:nth-child(2) {
@@ -70,27 +75,28 @@
   }
 
   .services h1 {
-    top: 3rem;
+    top: 6rem;
     margin-left: -4rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .services h2 {
-    top: 2.75rem;
-    right: 2rem;
-    font-size: 1.6rem;
+    top: 5.75rem;
+    right: 1.5rem;
+    font-size: 1.35rem;
     width: 17rem;
   }
 
   .services p {
-    top: -4rem;
-    font-size: 1.2rem;
+    width: 90vw;
+    font-size: 0.875rem;
+    text-align: justify;
   }
 
   .services a {
-    top: 2rem;
+    top: 4rem;
     left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .process {

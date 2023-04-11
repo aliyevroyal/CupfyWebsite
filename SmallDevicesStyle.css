@@ -1,5 +1,5 @@
-/* Small devices (landscape phones, less than 768px) */
-@media (min-width: 500px) and (max-width: 767.98px) {
+/* Small devices (landscape phones, less than 576px) */
+@media (min-width: 500px) and (max-width: 575.98px) {
   .navbar-brand,
   .navbar-brand:hover {
     color: #ffffff;
@@ -56,13 +56,18 @@
     -webkit-transform: scale(1.2, 1.2);
   }
 
+  .services {
+    height: 79rem;
+  }
+
   .services img {
     padding-top: 2.5rem;
     width: 7rem;
   }
 
   .services h6 {
-    padding-top: 1.5rem;
+    padding-top: 1.75rem;
+    font-size: 1.25rem;
   }
 
   .services .container .row:nth-child(2) {
@@ -70,26 +75,368 @@
   }
 
   .services h1 {
-    top: 3rem;
-    margin-left: -13.5rem;
-    font-size: 7rem;
+    top: 5.75rem;
+    margin-left: -4rem;
+    font-size: 4rem;
   }
 
   .services h2 {
-    top: 3.5rem;
-    right: 0rem;
-    font-size: 2.3rem;
-    width: 24rem;
+    top: 5.75rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    width: 16rem;
   }
 
   .services p {
-    font-size: 1.25rem;
+    width: 90vw;
+    font-size: 0.875rem;
+    text-align: justify;
   }
 
   .services a {
-    top: 4.5rem;
+    top: 4rem;
     left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+
+  .process {
+    padding-top: 2rem;
+  }
+
+  .process .imgBox {
+    min-height: 24rem;
+  }
+
+  .process .h1Box {
+    height: 5.5rem;
+  }
+
+  .process h1 {
+    left: 2rem;
+    font-size: xx-large;
+  }
+
+  .process .row:nth-child(2),
+  .process .row:nth-child(3),
+  .process .row:nth-child(4) {
+    height: 7rem;
+  }
+
+  .process .lamp {
+    width: 7rem;
+  }
+
+  .process h2 {
+    left: 6.5rem;
+    margin-top: 1rem;
+    font-size: x-large;
+  }
+
+  .process .row:nth-child(1) p {
+    left: 6.5rem;
+    margin-top: 3rem;
+    font-size: medium;
+    line-height: 1.35;
+  }
+
+  .process .appStore {
+    width: 11rem;
+    height: 4rem;
+    font-size: medium;
+  }
+
+  .process .playStore {
+    margin-top: 1.5rem;
+    width: 11rem;
+    height: 4rem;
+    font-size: medium;
+  }
+
+  .process .contactUs p {
+    margin: 0.25rem;
+    padding-top: 2rem;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .pricing .h1Box {
+    height: 3rem;
+  }
+
+  .pricing .container .row:nth-child(1) h1 {
+    left: 1rem;
+  }
+
+  .pricing .container .row:nth-child(2) .col-lg:nth-child(1) {
+    height: 3rem;
+  }
+
+  .pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
+    text-align: justify;
+    font-size: medium;
+  }
+
+  .pricing .container .row:nth-child(2) .col-lg:nth-child(2) {
+    height: 2.25rem;
+  }
+
+  .pricing
+    .container
+    .row:nth-child(2)
+    .col-lg:nth-child(2)
+    button:nth-child(1) {
+    font-size: medium;
+    left: 9rem;
+    width: 7rem;
+  }
+
+  .pricing
+    .container
+    .row:nth-child(2)
+    .col-lg:nth-child(2)
+    button:nth-child(2) {
+    font-size: medium;
+    left: 18rem;
+  }
+
+  .pricing .card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 30rem;
+  }
+
+  .pricing .card h1 {
+    top: 4rem;
+    left: 3.5rem;
+    font-size: large;
+  }
+
+  .pricing .card span {
+    font-size: xx-large;
+  }
+
+  .pricing .card h2 {
+    top: 7.5rem;
+    left: 3.5rem;
+    font-size: xx-large;
+  }
+
+  .pricing .card p {
+    top: 10.5rem;
+    left: 3.5rem;
+    width: 10rem;
+    text-align: justify;
+    font-size: medium;
+  }
+
+  .pricing .card .checkBox {
+    top: 13rem;
+    right: 1rem;
+    margin-top: 0.5rem;
+    font-size: medium;
+  }
+
+  .pricing .card button {
+    top: 25rem;
+    left: 3rem;
+    width: 12rem;
+    height: 2.6rem;
+    font-size: medium;
+  }
+
+  .partners {
+    margin-top: 2.5rem;
+    background-color: #d9d9d9;
+  }
+
+  .partners h1 {
+    right: 8rem;
+    width: 16rem;
+    text-align: left;
+  }
+
+  .partners img {
+    padding: 1.5rem;
+  }
+
+  .map .h1Box {
+    height: 5.75rem;
+  }
+
+  .map h1 {
+    left: 1rem;
+    width: 16rem;
+  }
+
+  .map .imgBox {
+    margin-top: 1rem;
+  }
+
+  .banner {
+    margin-top: 1rem;
+  }
+
+  .banner .box {
+    height: 5.5rem;
+  }
+
+  .banner h1 {
+    font-size: 3.75rem;
+    top: 0.5rem;
+    left: -3.5rem;
+  }
+
+  .banner h2 {
+    top: 0.25rem;
+    left: 0rem;
+    width: 10rem;
+    font-size: medium;
+  }
+
+  .banner button {
+    left: 0rem;
+    bottom: 0.25rem;
+    font-size: medium;
+  }
+  .footer {
+    padding-bottom: 6rem;
+  }
+
+  .footer .appStore,
+  .footer h5,
+  .footer .ulBox2 {
+    display: none;
+  }
+
+  .footer h1 {
+    text-align: left;
+  }
+
+  .footer p {
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .footer .socialMedia img {
+    margin-top: 1rem;
+    padding-right: 1.65rem;
+    padding-left: 1.65rem;
+    height: 1.75rem;
+  }
+
+  .footer li {
+    text-align: left;
+    padding-top: 1rem;
+  }
+
+  .footer .rightsBox {
+    margin-top: 0rem;
+    margin-left: 5vw;
+    width: 90vw;
+    border-top: 1px solid #f5f5f5;
+    font-size: small;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-brand,
+  .navbar-brand:hover {
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding-left: 0.75rem;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    padding-left: 0.75rem;
+  }
+
+  .nav-item i {
+    display: none;
+  }
+
+  .intro {
+    height: 62rem;
+  }
+
+  .intro h1 {
+    position: absolute;
+    top: 3.5rem;
+    left: 1.5rem;
+    width: 64vw;
+    font-size: 2.7rem;
+  }
+
+  .intro button,
+  .intro button:hover {
+    position: absolute;
+    left: 1.5rem;
+    border-radius: 60px;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .intro button:nth-child(2) {
+    width: 13rem;
+    top: 21rem;
+  }
+
+  .intro button:nth-child(3) {
+    width: 7rem;
+    top: 16rem;
+  }
+
+  .intro img {
+    right: 0rem;
+    top: 27.5rem;
+    width: 32rem;
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+  }
+
+  .services {
+    height: 79rem;
+  }
+
+  .services img {
+    padding-top: 2.5rem;
+    width: 7rem;
+  }
+
+  .services h6 {
+    padding-top: 1.75rem;
+    font-size: 1.25rem;
+  }
+
+  .services .container .row:nth-child(2) {
+    height: 30rem;
+  }
+
+  .services h1 {
+    top: 6rem;
+    margin-left: -6rem;
+    font-size: 4.5rem;
+  }
+
+  .services h2 {
+    top: 5.75rem;
+    right: 1rem;
+    font-size: 1.75rem;
+    width: 19rem;
+  }
+
+  .services p {
+    width: 32rem;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .services a {
+    top: 4rem;
+    left: 1rem;
+    font-size: 1rem;
   }
 
   .process {

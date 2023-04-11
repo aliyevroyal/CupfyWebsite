@@ -52,8 +52,12 @@
     pointer-events: none;
   }
 
+  .services {
+    height: 39rem;
+  }
+
   .services .container .row:nth-child(1) {
-    padding-top: 2.5rem;
+    padding-top: 3rem;
   }
 
   .services img {
@@ -62,6 +66,7 @@
 
   .services h6 {
     padding-top: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .services .container .row:nth-child(2) {
@@ -69,28 +74,29 @@
   }
 
   .services h1 {
-    top: 7rem;
-    left: 4.4rem;
-    font-size: 4.5rem;
+    top: 13rem;
+    left: 3.8rem;
+    font-size: 5rem;
   }
 
   .services h2 {
-    top: 6rem;
-    right: 0rem;
-    font-size: 2rem;
-    width: 21rem;
+    top: 11rem;
+    right: -5rem;
+    font-size: 2.1rem;
+    width: 24rem;
   }
 
   .services p {
-    top: 6rem;
-    left: 5rem;
-    width: 20rem;
+    top: 11.5rem;
+    left: 13rem;
+    width: 19.5rem;
   }
 
   .services a {
-    top: 11.5rem;
-    left: 5rem;
+    top: 16.5rem;
+    left: 13rem;
     text-decoration: underline !important;
+    font-size: 1.25rem;
   }
 
   .process {
