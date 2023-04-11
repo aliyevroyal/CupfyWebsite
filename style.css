@@ -117,6 +117,10 @@ header {
   font-family: Quicksand-Bold;
 }
 
+.services .upfy {
+  position: absolute;
+}
+
 .services h1 {
   position: absolute;
   color: #14cc60;

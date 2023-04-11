@@ -60,6 +60,10 @@
     height: 79rem;
   }
 
+  .services .container {
+    min-width: 100%;
+  }
+
   .services img {
     padding-top: 2.5rem;
     width: 7rem;
@@ -74,27 +78,32 @@
     height: 30rem;
   }
 
+  .services .upfy {
+    top: 0.75rem;
+    left: 0rem;
+    width: 13rem;
+  }
+
   .services h1 {
-    top: 6rem;
-    margin-left: -8.75rem;
-    font-size: 5rem;
+    display: none;
   }
 
   .services h2 {
     top: 5.25rem;
     right: 1rem;
-    font-size: 2rem;
-    width: 22rem;
+    font-size: 2.5rem;
+    width: 27rem;
   }
 
   .services p {
-    width: 43rem;
+    top: 1rem;
+    width: 90vw;
     font-size: 1rem;
     text-align: justify;
   }
 
   .services a {
-    top: 4rem;
+    top: 5rem;
     left: 1rem;
     font-size: 1rem;
   }
