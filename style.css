@@ -167,7 +167,7 @@ header {
 .process h1 {
   position: absolute;
   color: #0a2e36;
-  font-weight: bold;
+  font-family: Quicksand-Bold;
 }
 
 .process .lamp {
@@ -177,7 +177,7 @@ header {
 .process h2 {
   position: absolute;
   color: #101010;
-  font-weight: bold;
+  font-family: Quicksand-Bold;
 }
 
 .process .row:nth-child(1) p {
@@ -192,7 +192,7 @@ header {
 
 .process button:nth-child(1),
 .process button:nth-child(2) {
-  position: relative;
+  position: absolute;
 }
 
 .process .contactUs p {
@@ -205,6 +205,7 @@ header {
 .process .contactUs a:hover {
   text-decoration: underline;
   cursor: pointer;
+  font-family: Quicksand-Bold;
 }
 
 .pricing {

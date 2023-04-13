@@ -104,60 +104,83 @@
   }
 
   .process {
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
 
   .process .imgBox {
-    height: 37rem;
+    min-height: 24rem;
   }
 
   .process .hand {
-    top: 4rem;
+    width: 38rem;
   }
 
   .process .h1Box {
-    height: 9.5rem;
+    height: 6.5rem;
   }
 
   .process h1 {
-    left: 1.3rem;
-    width: 25rem;
+    top: 1rem;
+    left: 2.75rem;
+    font-size: 2.1rem;
+    width: 23rem;
   }
 
   .process .row:nth-child(2),
   .process .row:nth-child(3),
   .process .row:nth-child(4) {
-    height: 7.96rem;
+    height: 8rem;
   }
 
   .process .lamp {
-    width: 6.5rem;
-    margin-top: 0.75rem;
+    left: 1rem;
+    width: 8rem;
   }
 
   .process h2 {
-    left: 6rem;
+    left: 9.5rem;
     margin-top: 0.5rem;
+    font-size: 1.75rem;
   }
 
   .process .row:nth-child(1) p {
-    left: 6rem;
+    left: 9.5rem;
     margin-top: 3rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
     width: 18rem;
-    line-height: 1.5;
+  }
+
+  .process .appStoreBox {
+    height: 9rem;
+  }
+
+  .process .playStoreBox {
+    height: 7rem;
   }
 
   .process .appStore {
-    margin-top: 1rem;
+    margin-top: 3rem;
+    left: 9.5rem;
+    width: 13rem;
+    height: 5.5rem;
+    font-size: 1.2rem;
   }
 
   .process .playStore {
     margin-top: 1rem;
-    right: 3rem;
+    left: 9.5rem;
+    width: 13rem;
+    height: 5.5rem;
+    font-size: 1.2rem;
   }
 
   .process .contactUs p {
-    padding-top: 2.75rem;
+    margin: 0.25rem;
+    margin-left: 14rem;
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+    width: 32rem;
   }
 
   .pricing .h1Box {
