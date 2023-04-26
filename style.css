@@ -276,6 +276,7 @@ header {
 }
 
 .partners {
+  display: none;
   position: relative;
   width: 100vw;
 }
