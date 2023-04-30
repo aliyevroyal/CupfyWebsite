@@ -300,29 +300,37 @@
   }
 
   .banner {
-    margin-top: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
   }
 
   .banner .box {
-    height: 5.5rem;
+    height: 18rem;
   }
 
   .banner h1 {
-    font-size: 4.5rem;
-    left: -4.25rem;
+    top: 2rem;
+    left: -9rem;
+    font-size: 10rem;
   }
 
   .banner h2 {
-    top: 1.5rem;
-    left: 0rem;
-    width: 11rem;
-    font-size: large;
+    top: 6.5rem;
+    left: -6rem;
+    width: 21rem;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
   }
 
   .banner button {
-    top: 1.5rem;
-    left: 17.5rem;
-    font-size: large;
+    top: 7rem;
+    left: 14rem;
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+  }
+
+  .footer {
   }
 
   .footer .socialMedia img {

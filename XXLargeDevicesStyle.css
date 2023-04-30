@@ -293,29 +293,36 @@
   }
 
   .banner {
-    margin-top: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
   }
 
   .banner .box {
-    height: 6rem;
+    height: 18rem;
   }
 
   .banner h1 {
-    font-size: 5rem;
-    left: -4.75rem;
+    left: -11rem;
+    font-size: 12.25rem;
   }
 
   .banner h2 {
-    top: 1.5rem;
-    left: 0rem;
-    width: 15rem;
-    font-size: x-large;
+    top: 5.25rem;
+    left: -7rem;
+    width: 23rem;
+    font-size: 2.25rem;
+    line-height: 2.9rem;
   }
 
   .banner button {
-    top: 1.75rem;
-    left: 20rem;
-    font-size: x-large;
+    top: 6rem;
+    left: 21rem;
+    width: 18rem;
+    height: 4.25rem;
+    font-size: 1.25rem;
+  }
+
+  .footer {
   }
 
   .footer .socialMedia img {
