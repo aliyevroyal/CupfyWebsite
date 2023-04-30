@@ -332,6 +332,7 @@
 
   .footer {
     padding-bottom: 6rem;
+    height: 45rem;
   }
 
   .footer .appStore,
@@ -342,11 +343,20 @@
 
   .footer h1 {
     text-align: left;
+    margin-top: 3rem;
+    font-size: 1.75rem;
   }
 
   .footer p {
     margin-top: 1rem;
     text-align: left;
+    width: 17.5rem;
+    line-height: 1.75rem;
+  }
+
+  .footer .socialMedia {
+    margin-top: 1.5rem;
+    margin-left: -5rem;
   }
 
   .footer .socialMedia img {
@@ -359,10 +369,10 @@
   .footer li {
     text-align: left;
     padding-top: 1rem;
+    font-size: 1rem;
   }
 
   .footer .rightsBox {
-    margin-top: 0rem;
     margin-left: 5vw;
     width: 90vw;
     border-top: 1px solid #f5f5f5;

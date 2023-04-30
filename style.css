@@ -352,6 +352,11 @@ header {
   color: #ffffff;
 }
 
+.footer h1,
+.footer h5 {
+  font-family: Quicksand-Bold;
+}
+
 .footer a {
   text-decoration: none;
   color: #ffffff;
