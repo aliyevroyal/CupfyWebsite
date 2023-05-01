@@ -324,10 +324,10 @@
 
   .banner button {
     left: 0rem;
-    bottom: 1.5rem;
-    width: 6rem;
-    height: 1.75rem;
-    font-size: 0.425rem;
+    bottom: 0.75rem;
+    width: 7rem;
+    height: 2.75rem;
+    font-size: 0.7rem;
   }
 
   .footer {
