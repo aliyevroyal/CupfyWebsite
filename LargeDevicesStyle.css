@@ -208,6 +208,7 @@
     .row:nth-child(2)
     .col-lg:nth-child(2)
     button:nth-child(1) {
+    position: absolute;
     top: 0.25rem;
     left: 7.5rem;
     width: 7.5rem;
@@ -218,6 +219,7 @@
     .row:nth-child(2)
     .col-lg:nth-child(2)
     button:nth-child(2) {
+    position: absolute;
     top: 0.25rem;
     left: 17.5rem;
   }

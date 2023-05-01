@@ -209,8 +209,6 @@
     .row:nth-child(2)
     .col-lg:nth-child(2)
     button:nth-child(1) {
-    font-size: medium;
-    left: 9rem;
     width: 7rem;
   }
 
@@ -220,7 +218,6 @@
     .col-lg:nth-child(2)
     button:nth-child(2) {
     font-size: medium;
-    left: 18rem;
   }
 
   .pricing .card {

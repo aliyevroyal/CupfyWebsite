@@ -228,14 +228,12 @@ header {
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(1) {
-  position: absolute;
   background-color: #14cc60;
   color: #ffffff;
   border-radius: 20px;
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(2) button:nth-child(2) {
-  position: absolute;
   color: #0a2e36;
   border-radius: 20px;
 }
