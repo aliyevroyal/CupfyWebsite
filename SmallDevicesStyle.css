@@ -328,7 +328,7 @@
     height: 45rem;
   }
 
-  .footer .appStore,
+  .footer button,
   .footer h5,
   .footer .ulBox2 {
     display: none;
