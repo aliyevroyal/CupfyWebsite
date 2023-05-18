@@ -24,8 +24,9 @@
     position: absolute;
     top: 3.5rem;
     left: 1.5rem;
-    width: 20rem;
-    font-size: 2.7rem;
+    width: 22rem;
+    font-size: 2.3rem;
+    line-height: 1.5;
   }
 
   .intro button,
