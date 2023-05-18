@@ -49,9 +49,9 @@
   }
 
   .intro img {
+    right: 2rem;
     top: 27.5rem;
-    right: 0rem;
-    width: 100vw;
+    width: 80vw;
     transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
     -webkit-transform: scale(1.2, 1.2);
