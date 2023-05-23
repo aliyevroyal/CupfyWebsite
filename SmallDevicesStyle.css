@@ -2,17 +2,15 @@
 @media (min-width: 500px) and (max-width: 767.98px) {
   .navbar-brand,
   .navbar-brand:hover {
-    color: #ffffff;
-    font-size: 1.4rem;
-    padding-left: 0.75rem;
-    cursor: pointer;
+    width: 8.5rem;
+    margin-left: 0.75rem;
   }
 
   .nav-item {
-    padding-left: 0.75rem;
+    margin-left: 0.75rem;
   }
 
-  .nav-item i {
+  .nav-item img {
     display: none;
   }
 

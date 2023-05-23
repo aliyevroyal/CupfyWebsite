@@ -2,18 +2,22 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .navbar-brand,
   .navbar-brand:hover {
-    color: #ffffff;
-    padding-left: 2.8rem;
-    font-size: 1.8rem;
-    cursor: pointer;
+    margin-left: 2.8rem;
+    width: 6rem;
   }
 
   .nav-item {
-    padding-right: 3.6rem;
+    margin-right: 3.6rem;
   }
 
-  .nav-item i {
-    margin-top: 0.7rem;
+  .navbar .facebookIcon {
+    margin-right: 0.5rem;
+    transform: scale(0.75);
+  }
+
+  .navbar .instagramIcon {
+    margin-right: 3.6rem;
+    transform: scale(0.75);
   }
 
   .intro {

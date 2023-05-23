@@ -42,11 +42,9 @@ header {
   background-color: #0b423b;
 }
 
-.navbar-brand,
-.navbar-brand:hover {
-  color: #ffffff;
+.navbar img {
   cursor: pointer;
-  font-weight: bold;
+  pointer-events: auto;
 }
 
 .nav-link,
