@@ -10,14 +10,18 @@
     margin-right: 3.6rem;
   }
 
+  .nav-item a {
+    font-size: 1.2rem;
+  }
+
   .navbar .facebookIcon {
     margin-right: 0.5rem;
-    transform: scale(0.75);
+    transform: scale(0.85);
   }
 
   .navbar .instagramIcon {
     margin-right: 3.6rem;
-    transform: scale(0.75);
+    transform: scale(0.85);
   }
 
   .intro {
