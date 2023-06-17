@@ -25,38 +25,46 @@
   }
 
   .intro {
-    height: 42rem;
+    height: 62rem;
   }
 
   .intro h1 {
-    top: 15rem;
+    top: 11rem;
     left: 3.5rem;
-    width: 51vw;
-    font-size: 3.75rem;
+    width: 66vw;
+    line-height: 6rem;
+    font-size: 4.4rem;
+  }
+
+  .intro h2 {
+    top: 12.5rem;
+    left: 3.5rem;
+    width: 77vw;
+    font-size: 1.75rem;
   }
 
   .intro button,
   .intro button:hover {
-    top: 18.5rem;
+    top: 15rem;
     height: 4rem;
     border-radius: 20px;
     font-size: 1.25rem;
   }
 
-  .intro button:nth-child(2) {
+  .intro button:nth-child(3) {
     width: 16rem;
     left: 3.5rem;
   }
 
-  .intro button:nth-child(3) {
-    width: 9rem;
+  .intro button:nth-child(4) {
+    width: 13rem;
     left: 7rem;
   }
 
   .intro img {
-    top: 2rem;
     right: 0rem;
-    width: 40rem;
+    top: 35rem;
+    width: 32rem;
     pointer-events: none;
   }
 

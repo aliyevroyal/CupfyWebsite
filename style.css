@@ -81,6 +81,11 @@ header {
   font-family: Quicksand-Bold;
 }
 
+.intro h2 {
+  position: relative;
+  color: #0a2e36;
+}
+
 .intro button,
 .intro button:hover {
   position: relative;

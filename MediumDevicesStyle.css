@@ -19,43 +19,47 @@
   }
 
   .intro {
-    height: 62rem;
+    height: 64rem;
   }
 
   .intro h1 {
-    position: absolute;
-    top: 3.5rem;
-    left: 1.5rem;
-    width: 60vw;
-    font-size: 2.7rem;
+    top: 11rem;
+    left: 1.75rem;
+    width: 83vw;
+    line-height: 6rem;
+    font-size: 4.3rem;
+  }
+
+  .intro h2 {
+    top: 12.5rem;
+    left: 1.75rem;
+    width: 88vw;
+    font-size: 1.55rem;
   }
 
   .intro button,
   .intro button:hover {
-    position: absolute;
-    left: 1.5rem;
-    border-radius: 60px;
-    height: 3rem;
-    font-size: 1rem;
-  }
-
-  .intro button:nth-child(2) {
-    width: 13rem;
-    top: 21rem;
+    top: 15rem;
+    height: 4rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
   }
 
   .intro button:nth-child(3) {
-    width: 7rem;
-    top: 16rem;
+    width: 16rem;
+    left: 1.75rem;
+  }
+
+  .intro button:nth-child(4) {
+    width: 13rem;
+    left: 5.25rem;
   }
 
   .intro img {
     right: 0rem;
-    top: 27.5rem;
+    top: 35rem;
     width: 32rem;
-    transform: scale(1.2, 1.2);
-    -ms-transform: scale(1.2, 1.2);
-    -webkit-transform: scale(1.2, 1.2);
+    pointer-events: none;
   }
 
   .services {
