@@ -56,7 +56,11 @@
     left: 3.5rem;
   }
 
-  .intro button:nth-child(4) {
+  .intro br {
+    display: none;
+  }
+
+  .intro button:nth-child(5) {
     width: 13rem;
     left: 7rem;
   }

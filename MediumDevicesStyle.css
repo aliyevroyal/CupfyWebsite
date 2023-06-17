@@ -50,15 +50,16 @@
     left: 1.75rem;
   }
 
-  .intro button:nth-child(4) {
+  .intro br {
+    display: none;
+  }
+
+  .intro button:nth-child(5) {
     width: 13rem;
     left: 5.25rem;
   }
 
   .intro img {
-    right: 0rem;
-    top: 35rem;
-    width: 32rem;
     pointer-events: none;
   }
 
