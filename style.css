@@ -100,7 +100,7 @@ header {
 }
 
 .intro img {
-  position: absolute;
+  position: relative;
 }
 
 .services {

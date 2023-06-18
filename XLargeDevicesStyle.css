@@ -66,9 +66,6 @@
   }
 
   .intro img {
-    top: 0rem;
-    right: 0rem;
-    width: 48.5rem;
     pointer-events: none;
   }
 
