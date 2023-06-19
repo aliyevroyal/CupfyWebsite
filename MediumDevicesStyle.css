@@ -19,7 +19,7 @@
   }
 
   .intro {
-    height: 64rem;
+    height: 80rem;
   }
 
   .intro h1 {
@@ -60,7 +60,9 @@
   }
 
   .intro img {
-    pointer-events: none;
+    width: 37rem;
+    top: 40rem;
+    right: 0rem;
   }
 
   .services {

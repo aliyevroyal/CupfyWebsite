@@ -39,7 +39,7 @@
   .intro h2 {
     top: 12.5rem;
     left: 3.5rem;
-    width: 64vw;
+    width: 60vw;
     font-size: 1.75rem;
   }
 
@@ -66,6 +66,9 @@
   }
 
   .intro img {
+    width: 40vw;
+    top: 5rem;
+    right: 0rem;
     pointer-events: none;
   }
 

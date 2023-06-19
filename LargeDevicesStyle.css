@@ -25,7 +25,7 @@
   }
 
   .intro {
-    height: 64rem;
+    height: 80rem;
   }
 
   .intro h1 {
@@ -66,6 +66,9 @@
   }
 
   .intro img {
+    width: 37rem;
+    top: 40rem;
+    right: 0rem;
     pointer-events: none;
   }
 
