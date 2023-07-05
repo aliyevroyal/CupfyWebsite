@@ -81,7 +81,7 @@
   }
 
   .services img {
-    width: 6rem;
+    width: 2.75rem;
   }
 
   .services h6 {
@@ -94,6 +94,9 @@
   }
 
   .services .CupfyDarkLogo {
+    top: 11rem;
+    left: 0rem;
+    width: auto;
   }
 
   .services h2 {

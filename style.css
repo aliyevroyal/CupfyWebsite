@@ -8,6 +8,11 @@
   src: url("resources/Quicksand-Bold.ttf");
 }
 
+@font-face {
+  font-family: Quicksand-Semi-Bold;
+  src: url("resources/Quicksand-Semi-Bold.ttf");
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -119,22 +124,18 @@ header {
   color: #101010;
   cursor: pointer;
   font-family: Quicksand-Bold;
+  text-transform: uppercase;
 }
 
 .services .CupfyDarkLogo {
   position: absolute;
 }
 
-.services h1 span {
-  color: #101010;
-  font-family: Quicksand-Bold;
-}
-
 .services h2 {
   position: absolute;
   text-align: end;
   color: #0a2e36;
-  font-family: Quicksand-Bold;
+  font-family: Quicksand-Semi-Bold;
 }
 
 .services p {
