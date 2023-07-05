@@ -83,14 +83,7 @@
     height: 30rem;
   }
 
-  .services .upfy {
-    top: 0.5rem;
-    left: 0rem;
-    width: 10rem;
-  }
-
-  .services h1 {
-    display: none;
+  .services .CupfyDarkLogo {
   }
 
   .services h2 {
