@@ -149,15 +149,6 @@ header {
   color: #0a2e36;
 }
 
-.services a {
-  position: absolute;
-  text-decoration: underline;
-  cursor: pointer;
-  color: #0a2e36;
-  font-family: Quicksand-Bold;
-  text-decoration: underline !important;
-}
-
 .process {
   position: relative;
   width: 100vw;
