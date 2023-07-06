@@ -77,16 +77,17 @@
   }
 
   .services .container .row:nth-child(1) {
-    padding-top: 3rem;
+    padding-top: 4.5rem;
   }
 
   .services img {
-    width: 6rem;
+    width: 2.5rem;
   }
 
   .services h6 {
-    padding-top: 1.5rem;
-    font-size: 1.1rem;
+    padding-top: 2.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
   }
 
   .services .container .row:nth-child(2) {
@@ -94,19 +95,23 @@
   }
 
   .services .CupfyDarkLogo {
+    top: 11rem;
+    left: 1.75rem;
+    width: 14rem;
   }
 
   .services h2 {
-    top: 11rem;
+    top: 10.5rem;
     right: -5rem;
-    font-size: 2.1rem;
+    font-size: 2.25rem;
     width: 24rem;
+    line-height: 2.9rem;
   }
 
   .services p {
-    top: 11.5rem;
+    top: 11rem;
     left: 13rem;
-    width: 19.5rem;
+    width: 22rem;
   }
 
   .process {
