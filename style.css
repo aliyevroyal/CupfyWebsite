@@ -150,7 +150,7 @@ header {
   background-color: #f5f5f5;
 }
 
-.process .hand {
+.process .SecondCup {
   position: relative;
 }
 
@@ -160,14 +160,20 @@ header {
   font-family: Quicksand-Bold;
 }
 
+.process h2 {
+  position: absolute;
+  color: #0a2e36;
+  font-family: Quicksand-Regular;
+}
+
 .process .lamp {
   position: absolute;
 }
 
-.process h2 {
+.process h3 {
   position: absolute;
-  color: #101010;
-  font-family: Quicksand-Bold;
+  color: #0a2e36;
+  font-family: Quicksand-Regular;
 }
 
 .process .row:nth-child(1) p {
