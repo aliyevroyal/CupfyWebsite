@@ -31,7 +31,6 @@
   .intro h1 {
     top: 11rem;
     left: 3.5rem;
-    width: 66vw;
     line-height: 6rem;
     font-size: 4.4rem;
   }
@@ -56,7 +55,7 @@
     left: 3.5rem;
   }
 
-  .intro br {
+  .intro .secondBr {
     display: none;
   }
 
