@@ -118,47 +118,54 @@
   }
 
   .process .imgBox {
-    min-height: 24rem;
+    min-height: 31rem;
   }
 
-  .process .hand {
-    width: 38rem;
+  .process .SecondCup {
+    width: 35rem;
   }
 
   .process .h1Box {
-    height: 6.5rem;
+    height: 6rem;
   }
 
   .process h1 {
-    top: 1rem;
-    left: 2.75rem;
-    font-size: 2.1rem;
-    width: 23rem;
+    left: 3.5rem;
+    font-size: 1.5rem;
+    width: 20rem;
+  }
+
+  .process h2 {
+    top: 2.25rem;
+    left: 3.5rem;
+    font-size: 1.6rem;
+    width: 20rem;
   }
 
   .process .row:nth-child(2),
   .process .row:nth-child(3),
   .process .row:nth-child(4) {
-    height: 8rem;
+    height: 7rem;
   }
 
-  .process .lamp {
-    left: 1rem;
-    width: 8rem;
+  .process .icon {
+    margin-top: 1.5rem;
+    left: 2.25rem;
+    width: 6rem;
   }
 
-  .process h2 {
-    left: 9.5rem;
-    margin-top: 0.5rem;
-    font-size: 1.75rem;
+  .process h3 {
+    left: 7.75rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
   }
 
   .process .row:nth-child(1) p {
-    left: 9.5rem;
+    width: 60vw;
+    left: 7.75rem;
     margin-top: 3rem;
-    font-size: 1.2rem;
-    line-height: 1.2;
-    width: 18rem;
+    font-size: 0.9rem;
+    line-height: 1.35;
   }
 
   .process .appStoreBox {
@@ -166,31 +173,31 @@
   }
 
   .process .playStoreBox {
-    height: 7rem;
+    height: 6rem;
   }
 
   .process .appStore {
-    margin-top: 3rem;
-    left: 9.5rem;
-    width: 13rem;
-    height: 5.5rem;
-    font-size: 1.2rem;
+    margin-top: 2rem;
+    left: 7.75rem;
+    width: 11rem;
+    height: 4rem;
+    font-size: 0.9rem;
   }
 
   .process .playStore {
-    margin-top: 1rem;
-    left: 9.5rem;
-    width: 13rem;
-    height: 5.5rem;
-    font-size: 1.2rem;
+    left: 7.75rem;
+    width: 11rem;
+    height: 4rem;
+    font-size: 0.9rem;
   }
 
   .process .contactUs p {
     margin: 0.25rem;
-    margin-left: 14rem;
+    margin-left: 5vw;
     padding-top: 1.5rem;
-    font-size: 1.1rem;
-    width: 32rem;
+    width: 90vw;
+    font-size: 0.9rem;
+    text-align: center;
   }
 
   .pricing .h1Box {

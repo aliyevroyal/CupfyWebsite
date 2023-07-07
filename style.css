@@ -166,14 +166,14 @@ header {
   font-family: Quicksand-Regular;
 }
 
-.process .lamp {
+.process .icon {
   position: absolute;
 }
 
 .process h3 {
   position: absolute;
   color: #0a2e36;
-  font-family: Quicksand-Regular;
+  font-family: Quicksand-Bold;
 }
 
 .process .row:nth-child(1) p {

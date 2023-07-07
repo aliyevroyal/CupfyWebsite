@@ -111,17 +111,23 @@
   }
 
   .process .imgBox {
-    min-height: 24rem;
+    min-height: 21rem;
   }
 
   .process .h1Box {
-    height: 6.5rem;
+    height: 6rem;
   }
 
   .process h1 {
-    top: 1rem;
     left: 2rem;
     font-size: 1.5rem;
+    width: 20rem;
+  }
+
+  .process h2 {
+    top: 2.25rem;
+    left: 2rem;
+    font-size: 1.6rem;
     width: 20rem;
   }
 
@@ -131,19 +137,20 @@
     height: 8rem;
   }
 
-  .process .lamp {
-    margin-top: 0.5rem;
+  .process .icon {
+    margin-top: 1.5rem;
     left: 1rem;
     width: 6rem;
   }
 
-  .process h2 {
+  .process h3 {
     left: 7rem;
     margin-top: 1rem;
     font-size: 1.1rem;
   }
 
   .process .row:nth-child(1) p {
+    width: 66vw;
     left: 7rem;
     margin-top: 3rem;
     font-size: 0.9rem;
@@ -176,7 +183,7 @@
   .process .contactUs p {
     margin: 0.25rem;
     padding-top: 1.5rem;
-    font-size: medium;
+    font-size: 0.9rem;
     text-align: center;
   }
 
