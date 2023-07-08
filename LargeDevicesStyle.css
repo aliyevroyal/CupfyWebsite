@@ -356,7 +356,6 @@
 
   .footer {
     height: 30rem;
-    display: none;
   }
 
   .footer .CupfyLogo {
@@ -372,6 +371,11 @@
     margin-left: 0.75rem;
     margin-top: 1rem;
     width: 100vw;
+  }
+
+  .footer .socialMedia {
+    margin-top: 1.5rem;
+    float: left;
   }
 
   .footer .socialMedia img {
@@ -399,11 +403,6 @@
     width: 11rem;
     height: 4rem;
     font-size: 0.9rem;
-  }
-
-  .footer .socialMedia {
-    margin-top: 1.5rem;
-    float: left;
   }
 
   .footer .socialMedia .InstagramIconForSmallerDevices {
