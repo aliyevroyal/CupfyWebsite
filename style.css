@@ -344,6 +344,7 @@ header {
 }
 
 .footer {
+  display: none;
   position: relative;
   width: 100vw;
   background-color: #0a2e36;
