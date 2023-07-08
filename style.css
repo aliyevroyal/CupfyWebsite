@@ -349,13 +349,3 @@ header {
   background-color: #0a2e36;
   color: #ffffff;
 }
-
-.footer a {
-  text-decoration: none;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.footer i {
-  cursor: pointer;
-}

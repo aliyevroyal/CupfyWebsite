@@ -331,24 +331,27 @@
   }
 
   .footer {
-    padding-bottom: 6rem;
-    height: 45rem;
+    height: 30rem;
   }
 
   .footer .CupfyLogo {
     float: left;
+    width: 7rem;
+    margin-top: 0.75rem;
+    margin-left: 0.75rem;
   }
 
   .footer p {
     margin-top: 1rem;
     text-align: left;
-    width: 17.5rem;
-    line-height: 1.75rem;
+    margin-left: 0.75rem;
+    margin-top: 1rem;
+    width: 100vw;
   }
 
   .footer .socialMedia {
     margin-top: 1.5rem;
-    margin-left: -5rem;
+    float: left;
   }
 
   .footer .socialMedia img {
@@ -358,12 +361,28 @@
     height: 1.75rem;
   }
 
-  .footer button {
-    margin-top: 1rem;
+  .footer .appStore {
+    margin-top: 2rem;
     float: left;
+    margin-left: 0.75rem;
     color: #f5f5f5;
     width: 11rem;
     height: 4rem;
     font-size: 0.9rem;
+  }
+
+  .footer .playStore {
+    margin-top: 1rem;
+    float: left;
+    margin-left: 0.75rem;
+    color: #f5f5f5;
+    width: 11rem;
+    height: 4rem;
+    font-size: 0.9rem;
+  }
+
+  .footer .socialMedia .InstagramIconForSmallerDevices {
+    transform: scale(1.25);
+    margin-top: 1.5rem;
   }
 }
