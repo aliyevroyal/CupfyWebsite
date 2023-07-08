@@ -241,6 +241,7 @@
     .col-lg:nth-child(2)
     button:nth-child(2) {
     font-size: 0.8rem;
+    width: 8rem;
   }
 
   .pricing .card {
