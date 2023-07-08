@@ -344,16 +344,10 @@ header {
 }
 
 .footer {
-  display: none;
   position: relative;
   width: 100vw;
   background-color: #0a2e36;
   color: #ffffff;
-}
-
-.footer h1,
-.footer h5 {
-  font-family: Quicksand-Bold;
 }
 
 .footer a {

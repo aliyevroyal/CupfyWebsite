@@ -348,59 +348,38 @@
   }
 
   .footer {
-    height: 35rem;
+    height: 22.5rem;
+  }
+
+  .footer .CupfyLogo {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 4.5rem;
   }
 
   .footer .socialMedia img {
     display: none;
   }
 
-  .footer h1 {
-    margin-top: 4rem;
-    text-align: left;
-    font-size: 1.9rem;
-    text-transform: capitalize !important;
-  }
-
   .footer p {
-    margin-top: 2.75rem;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
     text-align: left;
     font-size: 1.25rem;
     width: 27rem;
   }
 
-  .footer button {
-    margin-top: 2rem;
+  .footer .appStore {
     float: left;
+    margin-top: 3rem;
+    margin-left: 2rem;
     color: #f5f5f5;
   }
 
-  .footer h5 {
+  .footer .playStore {
+    float: left;
     margin-top: 3rem;
-    text-align: left;
-    font-size: 1.25rem;
-    text-transform: capitalize !important;
-    width: 8rem;
-  }
-
-  .footer .ulBox1 {
-    margin-top: 2rem;
-    margin-left: 17.5rem;
-  }
-
-  .footer .ulBox2 {
-    margin-top: 2rem;
-    margin-left: -5rem;
-  }
-
-  .footer ul {
-    margin-top: 1.75rem;
-  }
-
-  .footer li {
-    margin-top: 0.5rem;
-    text-align: left;
-    font-size: 1.25rem;
-    width: 7rem;
+    color: #f5f5f5;
   }
 }
