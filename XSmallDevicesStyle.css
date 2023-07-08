@@ -188,11 +188,13 @@
   }
 
   .pricing .h1Box {
-    min-height: 3rem;
+    margin-top: 3rem;
+    min-height: 2.5rem;
   }
 
   .pricing .container .row:nth-child(1) h1 {
-    left: 1rem;
+    left: 2rem;
+    font-size: 1.5rem;
   }
 
   .pricing .container .row:nth-child(2) .col-lg:nth-child(1) {
@@ -202,10 +204,13 @@
   .pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
     text-align: justify;
     font-size: medium;
+    margin-left: 0.5rem;
+    width: 85vw;
+    font-size: 0.9rem;
   }
 
   .pricing .container .row:nth-child(2) .col-lg:nth-child(2) {
-    height: 2.25rem;
+    height: 3rem;
   }
 
   .pricing
@@ -213,7 +218,7 @@
     .row:nth-child(2)
     .col-lg:nth-child(2)
     button:nth-child(1) {
-    font-size: medium;
+    font-size: 0.8rem;
     width: 8rem;
   }
 
@@ -222,52 +227,49 @@
     .row:nth-child(2)
     .col-lg:nth-child(2)
     button:nth-child(2) {
-    font-size: medium;
+    font-size: 0.8rem;
   }
 
   .pricing .card {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     height: 30rem;
   }
 
   .pricing .card h1 {
-    top: 4rem;
-    left: 3.5rem;
-    font-size: large;
+    top: 2.75rem;
+    left: 2rem;
+    font-size: 1rem;
   }
 
   .pricing .card span {
-    font-size: xx-large;
+    font-size: 2rem;
   }
 
   .pricing .card h2 {
-    top: 7.5rem;
-    left: 3.5rem;
-    font-size: xx-large;
+    top: 6.75rem;
+    left: 2rem;
+    font-size: 1.6rem;
   }
 
   .pricing .card p {
-    top: 10.5rem;
-    left: 3.5rem;
+    top: 10rem;
+    left: 2rem;
     width: 10rem;
     text-align: justify;
-    font-size: medium;
+    font-size: 1.1rem;
   }
 
   .pricing .card .checkBox {
-    top: 13rem;
-    right: 1rem;
+    float: left;
+    top: 11.5rem;
+    left: 0.75rem;
     margin-top: 0.5rem;
-    font-size: medium;
+    font-size: 0.9rem;
   }
 
-  .pricing .card button {
-    top: 25rem;
-    left: 3rem;
-    width: 12rem;
-    height: 2.6rem;
-    font-size: medium;
+  .pricing .card .checkBox img {
+    width: 1.1rem;
   }
 
   .partners {
@@ -304,7 +306,7 @@
   }
 
   .banner {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     margin-bottom: 2.5rem;
   }
 
