@@ -197,6 +197,10 @@
     text-align: center;
   }
 
+  .process .contactUs p br {
+    display: none;
+  }
+
   .pricing .h1Box {
     height: 3rem;
   }
@@ -265,6 +269,7 @@
   }
 
   .pricing .card .checkBox {
+    float: left;
     top: 13rem;
     right: 1rem;
     margin-top: 0.5rem;

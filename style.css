@@ -163,7 +163,6 @@ header {
 .process h2 {
   position: absolute;
   color: #0a2e36;
-  font-family: Quicksand-Regular;
 }
 
 .process .icon {
@@ -217,6 +216,7 @@ header {
 .pricing .container .row:nth-child(1) h1 {
   position: absolute;
   color: #0a2e36;
+  font-family: Quicksand-Bold;
 }
 
 .pricing .container .row:nth-child(2) .col-lg:nth-child(1) p {
@@ -237,7 +237,7 @@ header {
 .pricing .card {
   position: relative;
   width: 18rem;
-  border-radius: 45px;
+  border-radius: 20px;
   color: #848199;
   background-color: #f5f5f5;
   border: 1px solid #e7e2e2;
@@ -261,13 +261,6 @@ header {
 
 .pricing .card .checkBox {
   position: relative;
-}
-
-.pricing .card button {
-  position: absolute;
-  background-color: #14cc60;
-  color: #e7e2e2;
-  border-radius: 20px;
 }
 
 .partners {

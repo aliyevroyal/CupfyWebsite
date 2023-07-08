@@ -191,6 +191,10 @@
     min-height: 3rem;
   }
 
+  .afs {
+    background-color: red;
+  }
+
   .pricing .container .row:nth-child(1) h1 {
     left: 1rem;
   }

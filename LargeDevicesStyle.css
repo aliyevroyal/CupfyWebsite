@@ -200,15 +200,22 @@
     text-align: center;
   }
 
+  .process .contactUs p br {
+    display: none;
+  }
+
   .pricing .h1Box {
+    margin-top: 6rem;
     height: 3rem;
   }
 
   .pricing .h1Box h1 {
     left: 1rem;
+    font-size: 2.25rem;
   }
 
   .pricing .container .row:nth-child(2) .col-lg:nth-child(1) {
+    margin-top: 1.75rem;
     height: 3rem;
   }
 
@@ -217,6 +224,7 @@
   }
 
   .pricing .container .row:nth-child(2) .col-lg:nth-child(2) {
+    margin-top: 1.2rem;
     height: 3rem;
   }
 
@@ -229,6 +237,7 @@
     top: 0.25rem;
     left: 7.5rem;
     width: 7.5rem;
+    font-size: 0.85rem;
   }
 
   .pricing
@@ -239,51 +248,49 @@
     position: absolute;
     top: 0.25rem;
     left: 17.5rem;
+    font-size: 0.85rem;
   }
 
   .pricing .card {
-    margin-top: 1rem;
+    margin-top: 8rem;
     margin-bottom: 1rem;
     height: 30rem;
   }
 
   .pricing .card h1 {
-    top: 4rem;
-    left: 3.5rem;
-    font-size: large;
+    top: 2.75rem;
+    left: 2rem;
+    font-size: 1.25rem;
   }
 
   .pricing .card span {
-    font-size: xx-large;
+    font-size: 2rem;
   }
 
   .pricing .card h2 {
     top: 7.5rem;
-    left: 3.5rem;
-    font-size: xx-large;
+    left: 2rem;
+    font-size: 1.6rem;
   }
 
   .pricing .card p {
-    top: 10.5rem;
-    left: 3.5rem;
+    top: 13rem;
+    left: 2rem;
     width: 10rem;
     text-align: justify;
-    font-size: medium;
+    font-size: 1.1rem;
   }
 
   .pricing .card .checkBox {
-    top: 13rem;
-    right: 1rem;
-    margin-top: 0.5rem;
-    font-size: medium;
+    float: left;
+    top: 13.75rem;
+    left: 0.75rem;
+    margin-top: 1.25rem;
+    font-size: 0.9rem;
   }
 
-  .pricing .card button {
-    top: 25rem;
-    left: 3rem;
-    width: 12rem;
-    height: 2.6rem;
-    font-size: medium;
+  .pricing .card .checkBox img {
+    width: 1.1rem;
   }
 
   .partners {
@@ -319,7 +326,7 @@
   }
 
   .banner {
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-bottom: 4rem;
   }
 
