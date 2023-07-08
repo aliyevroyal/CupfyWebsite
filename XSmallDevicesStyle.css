@@ -315,16 +315,9 @@
     height: 7.5rem;
   }
 
-  .banner h1 {
-    top: 0.25rem;
-    left: -4.7rem;
-    font-size: 5rem;
-  }
-
   .banner h2 {
     top: 1.5rem;
     left: 0rem;
-    width: 9rem;
     font-size: 0.8rem;
     line-height: 1.1rem;
   }

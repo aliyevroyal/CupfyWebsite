@@ -328,16 +328,13 @@
     height: 18rem;
   }
 
-  .banner h1 {
-    top: 1rem;
-    left: -10rem;
-    font-size: 11rem;
+  .banner .ThirdCup {
+    width: 28rem;
   }
 
   .banner h2 {
     top: 5.75rem;
     left: -7rem;
-    width: 23rem;
     font-size: 2.1rem;
     line-height: 2.75rem;
   }
