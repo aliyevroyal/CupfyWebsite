@@ -53,29 +53,62 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Necə işləyir?</a>
+              <a class="nav-link" href="#process">Necə işləyir?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Abunə Planları</a>
+              <a class="nav-link" href="#pricing">Abunə Planları</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Partnyorlarımız</a>
+              <a
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#modal"
+                href="#"
+                >Partnyorlarımız</a
+              >
             </li>
             <li class="nav-item facebookIcon">
-              <img src="resources/FacebookIcon.svg" />
+              <a data-toggle="modal" data-target="#modal">
+                <img src="resources/FacebookIcon.svg" />
+              </a>
             </li>
-            <a
-              href="https://instagram.com/cupfy.az?igshid=MzRlODBiNWFlZA=="
-              target="_blank"
-            >
-              <li class="nav-item instagramIcon">
-                <img src="resources/InstagramIcon.svg" />
-              </li>
-            </a>
+            <li class="nav-item instagramIcon">
+              <a
+                href="https://instagram.com/cupfy.az?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
+                <img id="InstagramIcon" src="resources/InstagramIcon.svg" />
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <div
+      class="modal fade"
+      id="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">Funksiya tezlikə aktiv olacaq</div>
+          <div class="modal-footer">
+            <a
+              class="btn btn-secondary"
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="color: #f5f5f5; background-color: #14cc60; border: 0px"
+              >Bağla</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="intro">
       <h1>
@@ -83,9 +116,22 @@
         abunə qəhvə tətbiqi!
       </h1>
       <h2>İstəyinizə uyğun abunə planları ilə qəhvə sevginiz bitməsin</h2>
-      <button type="button" class="btn">Abunə planlarımız</button>
+      <button
+        onClick="document.getElementById('pricing').scrollIntoView();"
+        type="button"
+        class="btn"
+      >
+        Abunə planlarımız
+      </button>
       <br class="secondBr" />
-      <button type="button" class="btn">Bizə qoşulun!</button>
+      <button
+        type="button"
+        data-toggle="modal"
+        data-target="#modal"
+        class="btn"
+      >
+        Bizə qoşulun!
+      </button>
       <img src="resources/FirstCup.svg" class="img-fluid" />
     </section>
 
@@ -142,7 +188,7 @@
       </div>
     </section>
 
-    <section class="process">
+    <section id="process" class="process">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xl imgBox" style="padding-left: 0rem">
@@ -176,7 +222,11 @@
             </div>
             <div class="row">
               <div class="col-xl appStoreBox">
-                <button class="btn btn-outline-dark btn-icon-text appStore">
+                <button
+                  class="btn btn-outline-dark btn-icon-text appStore"
+                  data-toggle="modal"
+                  data-target="#modal"
+                >
                   <i class="fa fa-apple btn-icon-prepend mdi-36px"></i>
                   <span class="d-inline-block text-left">
                     <small class="font-weight-light d-block"
@@ -187,7 +237,11 @@
                 </button>
               </div>
               <div class="col-xl playStoreBox">
-                <button class="btn btn-outline-dark btn-icon-text playStore">
+                <button
+                  data-toggle="modal"
+                  data-target="#modal"
+                  class="btn btn-outline-dark btn-icon-text playStore"
+                >
                   <i class="fa fa-android btn-icon-prepend mdi-36px"></i>
                   <span class="d-inline-block text-left">
                     <small class="font-weight-light d-block"
@@ -204,13 +258,13 @@
           <p>
             Harada olursanız olun, hər bir fincanınızda <br />
             sizi eşitmək bizə xoşdur! <br />
-            <a>Bizə yazın</a>
+            <a data-toggle="modal" data-target="#modal">Bizə yazın</a>
           </p>
         </div>
       </div>
     </section>
 
-    <section class="pricing">
+    <section id="pricing" class="pricing">
       <div class="container">
         <div class="row h1Box">
           <h1>Abunə planlarımız</h1>
