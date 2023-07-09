@@ -349,3 +349,11 @@ header {
   background-color: #0a2e36;
   color: #ffffff;
 }
+
+.footer .privacyPolicy p {
+  position: relative;
+}
+
+.footer .largerDevicesSocialMedia img {
+  position: relative;
+}

@@ -343,7 +343,7 @@
   }
 
   .footer {
-    height: 30rem;
+    height: 32rem;
   }
 
   .footer .CupfyLogo {
@@ -353,7 +353,7 @@
     margin-left: 0.75rem;
   }
 
-  .footer p {
+  .footer .header p {
     margin-top: 1rem;
     text-align: left;
     margin-left: 0.75rem;
@@ -361,12 +361,12 @@
     width: 100vw;
   }
 
-  .footer .socialMedia {
+  .footer .smallerDevicesSocialMedia {
     margin-top: 1.5rem;
     float: left;
   }
 
-  .footer .socialMedia img {
+  .footer .smallerDevicesSocialMedia img {
     margin-top: 1rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
@@ -393,8 +393,27 @@
     font-size: 0.9rem;
   }
 
-  .footer .socialMedia .InstagramIconForSmallerDevices {
+  .footer .smallerDevicesSocialMedia .InstagramIconForSmallerDevices {
     transform: scale(1.25);
     margin-top: 1.5rem;
+  }
+
+  .footer .privacyPolicy {
+    padding: 0rem;
+  }
+
+  .footer .privacyPolicy p {
+    position: relative;
+    top: 1.5rem;
+    margin-top: 0.5rem;
+    width: 50vw;
+    float: left;
+    left: 1rem;
+    text-align: start;
+    color: #ffffff;
+  }
+
+  .footer .largerDevicesSocialMedia {
+    display: none;
   }
 }
